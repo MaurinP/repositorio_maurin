@@ -1,2 +1,3 @@
 # repositorio_maurin
-Repositorio para tarea
+
+Explicación de códigos; evidencias.
