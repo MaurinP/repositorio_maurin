@@ -186,6 +186,7 @@ def twentyseven():
 def twentyeight():
     return "no existe la estructura switch en Python"
 def twentynine():
+    #en sistemas Linux Ctrl+D finaliza los datos de entrada.
     try:
         while True:
             datos_de_entrada = input("ingresa informacion (Ctr+D para finalizar los datos de entrada): ")
