@@ -193,7 +193,7 @@ def twentynine():
     except EOFError:
         print("Final de archivo alcanzado, no hay datos de entrada")
 def thirty():
-
+    #el codigo no puede aceptar demasiado grandes
     n = 489990965341
     i = True
     while i == True:
