@@ -4,21 +4,25 @@ Explicación de códigos; evidencias.
 
 Explicación códigos, tarea 1.
 
-def one():#el numero de la funcion es el numero del ejercicio
+def one():
     print("hola")
 
 Explicación: def es una forma de declarar una función. En este caso la función se llama one(). Y se llama "one" porque es el primer ejercicio. El nombre de las funciones estando en inglés fue por mero capricho perosnal, nada importante en qué pensar. En Python 3 se usa print para imprimir datos de salida. En este caso se imprime "hola", una cadena de texto. 
 
 def two():
     print(273)
+    
 def three():
     print(5.3)
 def four():
     print(1234+532)
+    
 def five():
     print(1234-532)
+    
 def six():
     print(1234*532)
+    
 def seven():
     print(124/532)
     
@@ -29,11 +33,13 @@ def eight():
     while i <= 3:
         print(i)
         i+=1
+        
 Explicación ejercicio 8: i = 1 es el contador del bucle, además del número que se imprimirá por pantalla. Inicia en 1, porque el ejercicio trata acerca de imprimir números del 1 al 3. Mientras i sea menor o igual a 3, se imprimirá i en cada vuelta del bucle. Al finalizar una vuelta, i aumenta 1 (por eso aparece i+=1).
 
 def nine():
     for i in range(1,10):
         print(i)
+        
 Explicación del ejercicio 9: Aquí usa un bucle for e lugar de un while. No hay necesidadde declrarar un contador explícitamente. El bucle imprimirá todos los números que están en el rango de 1 a 9. "range(1,10)" es todos los números iguales o mayores a 1 pero menores a 10. Si quisiéramos imprimir hasta los números de 1 a 10, deberíamos poner range(1,11).
 
 def ten():
@@ -41,11 +47,13 @@ def ten():
     while i <= 10000:
         print(i)
         i+=1
+        
 Explicación del ejercicio 10: Misma lógica del ejercicio 8, pero en lugar de imprimir números menores o iguales a 3, imprime números menores o iguales a 10000 empezando desde 1.
 
 def eleven():
     for i in range(5,11):
         print(i)
+        
 Explicación del ejercicio 11: Misma lógica del ejercicio 9, pero imprime los números del 5 al 10, por eso es "range(5,11)".
 
 def twelve():
@@ -53,11 +61,13 @@ def twelve():
     while j <= 15:
         print(j)
         j+=1
+        
 Explicación del ejercicio 12: Misma lógica del ejercicio 8, pero aquí el contador empieza en 5, y el bucle acaba cuando j es igual a 15.
 
 def thirteen():
     for i in range(5,15001):
         print(i)
+        
 Explicación del ejercicio 13: Misma lógica del ejercicio 9, pero el range es entre 5 y 150001, para que imprima los números entre 5 y 15000.
 
 def fourteen():
@@ -79,6 +89,7 @@ def sixteen():
         c = c*(n+1)
         n = n + 1
         print(c)
+        
 Explicación del ejercicio 16: Es el factorial de 5 (5!). El resultado debe ser 120. Se requieren de dos variables, una que lleve el conteo de los números que se van multiplicando (c) y otra que almacene el nuevo número que se añadirá a la multiplicación (n).
 C es igual a n, porque la multiplicación inicia en 1. Se multiplicará 1*2 primero, por eso se multiplica a c (1) por n+1 (2), y el resultado queda almacenado en c. Ahora c es 2 y n es igual a n+1, luego se hace el mismo proceso hasta que n sea igual a 5 y c haya acumulado el producto 1x2x3x4x5.
 
